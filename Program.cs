@@ -37,6 +37,7 @@ namespace idk
         {
             Szemely tanulo1 = new Szemely();
             tanulo1.Nev = "Gábor";
+            tanulo1.kor="25";
             Console.WriteLine(tanulo1.Nev);
             /*
             Szemely tanulo1 = new Szemely("Peti", 34);
