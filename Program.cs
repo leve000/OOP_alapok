@@ -66,7 +66,13 @@ namespace idk
 
     public class Hallgato : Szemely
     {
-        public string neptunKod { get; set; }
+        
+        private int neptunkod=12345;
+
+        public void Kiir()
+        {
+            Nev=string.Empty;
+        }
     }
 
     internal class Program
