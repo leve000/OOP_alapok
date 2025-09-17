@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -66,12 +67,16 @@ namespace idk
 
     public class Hallgato : Szemely
     {
-        
-        private int neptunkod=12345;
+        private string netpunKod;
 
-        public void Kiir()
+        public string NetpunKod
         {
-            Nev=string.Empty;
+            get { return netpunKod; }
+            set
+            {
+                if (value.Length <= 6) netpunKod = value;
+                else Console.WriteLine("Nem megfelelő hosszúság!");
+            }
         }
     }
 
@@ -89,13 +94,27 @@ namespace idk
             Bankszamla szamla1 = new Bankszamla();
             szamla1.Egyenleg = 1000;
             Console.WriteLine(szamla1.Egyenleg);
-            /*
-            Szemely tanulo1 = new Szemely("Peti", 34);
-            Console.WriteLine(tanulo1.Kiir());
 
-            Szemely tanulo2 = new Szemely("Jani", 38);
-            Console.WriteLine(tanulo2.Kiir());
-            */
+            List<Hallgato> hallgatok = new List<Hallgato>();
+            for (int i = 0; i < 2; i++)
+            {
+                Hallgato hallgato = new Hallgato();
+                Console.WriteLine($"Kérem a(z) {i + 1}. hallgató nevét: ");
+                hallgato.Nev = Console.ReadLine();
+                Console.WriteLine($"Kérem az életkorát is: ");
+                hallgato.Kor = int.Parse(Console.ReadLine());
+                Console.WriteLine($"Kérem az netpunkódját is: ");
+                hallgato.NetpunKod = Console.ReadLine();
+                hallgatok.Add(hallgato);
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Hallgatók neve:");
+
+            foreach (var item in hallgatok)
+            {
+                Console.WriteLine(item.Nev);
+            }
         }
     }
 }
