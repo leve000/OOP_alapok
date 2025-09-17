@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{E3E0CAB1-D391-455D-A5A6-AA96869715CD}|idk.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3E0CAB1-D391-455D-A5A6-AA96869715CD}|idk.csproj|c:\\users\\gyurcsaklj\\source\\repos\\idk\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{E3E0CAB1-D391-455D-A5A6-AA96869715CD}|idk.csproj|C:\\Users\\Gyurcsaklj\\source\\repos\\idk\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{E3E0CAB1-D391-455D-A5A6-AA96869715CD}|idk.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
@@ -30,8 +30,7 @@
               "RelativeToolTip": ".gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-09-10T07:26:57.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T07:26:57.22Z"
             },
             {
               "$type": "Document",
@@ -39,16 +38,12 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Gyurcsaklj\\source\\repos\\idk\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Gyurcsaklj\\source\\repos\\idk\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAhwCEAAAAaAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Gyurcsaklj\\source\\repos\\idk\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwEsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T06:01:24.195Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

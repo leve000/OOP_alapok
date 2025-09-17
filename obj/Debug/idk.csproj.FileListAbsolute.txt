@@ -1,0 +1,8 @@
+C:\Users\Gyurcsaklj\source\repos\idk\obj\Debug\idk.csproj.AssemblyReference.cache
+C:\Users\Gyurcsaklj\source\repos\idk\obj\Debug\idk.csproj.CoreCompileInputs.cache
+C:\Users\Gyurcsaklj\source\repos\idk\bin\Debug\idk.exe.config
+C:\Users\Gyurcsaklj\source\repos\idk\bin\Debug\idk.exe
+C:\Users\Gyurcsaklj\source\repos\idk\bin\Debug\idk.pdb
+C:\Users\Gyurcsaklj\source\repos\idk\obj\Debug\idk.exe
+C:\Users\Gyurcsaklj\source\repos\idk\obj\Debug\idk.pdb
+C:\Users\Gyurcsaklj\source\repos\idk\obj\Debug\idk.exe.config
