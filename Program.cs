@@ -69,6 +69,10 @@ namespace idk
     {
         private string netpunKod;
 
+        public Hallgato( string name, int age, string neptuncode) : base(name, age)
+        {
+         neptunKod = neptuncode;
+        }
         public string NetpunKod
         {
             get { return netpunKod; }
@@ -77,6 +81,21 @@ namespace idk
                 if (value.Length <= 6) netpunKod = value;
                 else Console.WriteLine("Nem megfelelő hosszúság!");
             }
+        }
+    }
+
+    public class dolgozo : Szemely
+    {
+        private int ber;
+
+        public dolgozo(string name, int age, int salary) : base(name, age)
+        {
+            ber = salary;
+        }
+
+        public override string ToString()
+        {
+            return $"A dolgozó neve: {Nev}, életkora: {Kor}, bére: {ber}";
         }
     }
 
